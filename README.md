@@ -15,6 +15,8 @@ $ php instagram_dl.php <username>
 ### Cookies
 If your account is private, the script will need to be authenticated. Cookies can be exported from your local browser and added to a file called cookies.txt in the same folder as the script.
 
+You can execute cookies.php to auto generate cookies.txt. Don't forget to edit and put your username with password inside cookies.php before execute it. Or you can use cookies from your browser, the example as shown below.
+
 ##### Example cookies.txt
 ``
 instagram.com	FALSE	/	FALSE	1447966497.46746	sessionid	IGSC29284ebc9306394b234aeb80328798a667fc77abd2f34ea8ef9d64a9e8%3ApOywREAC42kSpG8IQNmlZz4qRxCsGDf7n%3A%7B%22_token_ver%22%3A1%2C%22_auth_user_id%22%3A45790314%2C%22_token%22%3A%2245790314%3ASgNlcPPqBkWeYFhN3WVXxzQJ7A3GarmD%3A5289dd03492ec09956373ee803d18106f77df35bcb9179b8bfc80230%22%2C%22_auth_user_backend%22%3A%22accounts.backends.CaseInsensitiveModelBackend%22%2C%22last_refreshed%22%3A1444176362.567775%2C%22_platform%22%3A4%7D
@@ -22,5 +24,5 @@ instagram.com	FALSE	/	FALSE	1447966497.46746	sessionid	IGSC29284ebc9306394b234ae
 
 ### Requirements
 This script requires the following installed:
-* PHP
+* PHP (tested on php5.6)
 * cURL
